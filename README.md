@@ -97,7 +97,34 @@ hexo s  测试没问题之后
 hexo d部署即可
 ```
 
+## github action 自动部署(私有仓库防止秘钥泄露!)
 
+```
+fork hexo-demo-source 记得设置为私有(我不确定可以不可以,不行就复制一份代码之后设置为私有)
+
+生成token
+参考https://cloud.tencent.com/developer/article/2369534?from_column=20421&from=20421
+
+主配置文件下修改
+deploy: 
+  - type: git
+    repo: https://#你的密钥#@github.com/zlay0701/zlay0701.github.io.git
+    branch: main
+    
+复制hexo-action.yml文件到.github\workflows目录下
+并修改文件内的2行内容,修改为github用户名 和github的邮箱
+  git config --global user.name "XXX"
+  git config --global user.email "XXX@qq.com"
+
+再用github desktop上传或者其他方式上传，action直接就开始运行了。全绿就配置正常
+
+后续可能会优化成动态token
+参考https://blog.csdn.net/qq_45487080/article/details/121345434
+```
+
+参考https://cloud.tencent.com/developer/article/2500962
+
+参考https://cloud.tencent.com/developer/article/2369534?from_column=20421&from=20421
 
 ## hexo升级步骤
 
