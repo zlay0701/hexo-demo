@@ -126,6 +126,12 @@ deploy:
 
 参考https://cloud.tencent.com/developer/article/2369534?from_column=20421&from=20421
 
+## 写作
+
+使用typora 可以加图片参考
+
+https://zlay0701.github.io/p/2025-05-29-hexo-tutorial.html
+
 ## hexo升级步骤
 
 ```
