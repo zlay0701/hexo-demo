@@ -1,28 +1,105 @@
-# hexo
+# hexo-demo
 
-#### 介绍
-1. 个人hexo博客源码
+## 介绍
+一个hexo demo 下载之后改改配置达到可以快速搭建一个博客的目的
+
+源码地址https://github.com/zlay0701/hexo-demo-source  请fork这个使用
+
+演示地址https://zlay0701.github.io/hexo-demo/
+
+其他教程见https://zlay0701.github.io/
 
 
-#### 软件架构
-1. xxx
+## 软件架构
+hexo7.3.0 主题next 8.23.0
+
+## 特别提示
+
+注意网络环境可以正常连接github.com,提前弄好ssh秘钥连接
+
+## 使用说明
+
+1. fork或者下载源码
+
+2. 安装nodejs18: https://nodejs.org/download/release/latest-v18.x/node-v18.20.8-x64.msi
+
+3. 安装git-scm :https://git-scm.com/downloads
+
+   ```
+   设置npm镜像
+   npm config set registry https://registry.npmmirror.com/
+   
+   打开hexo-demo-source文件夹,右键->open git base here 打开命令行窗口
+   cd hexo-demo-source
+   npm install
+   npm install -g hexo-cli
+   
+   之后测试下
+   hexo g
+   hexo s
+   按照窗口提示访问地址 能成功打开即可
+   
+   ```
+
+## 必须修改主配置:
+
+```yaml
+title: 主标题XXX’Blog
+subtitle: 副标题
+description: 描述,或者个人介绍
+author: 作者昵称
+
+#如果您的网站存放在子目录中，例如 http://example.com/blog，则请将您的 url 设为 http://example.com/blog 并把 root 设为 /blog/
+url: https://XXX.github.io/
+root: /
+#部署设置 
+deploy:
+ - type: git
+   repo: git@github.com:XXX/XXX.git
+   branch: main
+```
+
+## 必须修改Next主题配置
+
+```yaml
+#网站首页的头像
+avatar:
+  url: /uploads/web-app-manifest-512x512.png
+#网站首页联系方式
+social:
+  GitHub: https://github.com/XXX || fab fa-github
+  E-Mail: mailto:XXX@gmail.com || fa fa-envelope
+  RSS: /atom.xml || fa fa-rss
+  Gitee: https://gitee.com/XXX || fa fa-envelope
+#网站建立时间
+footer:
+  since: 2016
+#每篇博客结尾会显示的联系方式
+follow_me:
+  博客园: https://www.cnblogs.com/XXX/ || fa fa-envelope
+#网站右上角的github链接
+github_banner:
+  enable: true
+  permalink: https://github.com/XXX 
+#评论系统 也可以使用其他的评论系统
+utterances:
+  enable: true
+  repo: zlay0701/hexo-demo-comments
+```
+
+## 部署
+
+```
+修改完设置
+hexo clean
+hexo g
+hexo s  测试没问题之后
+hexo d部署即可
+```
 
 
 
-#### 安装教程
-
-1.  xxx
-
-#### 使用说明
-
-1.  下载源码
-2.  安装nodejs
-3.  npm install 执行代码安装 
-4.  hexo g 生成静态文件
-5.  hexo s 启动验证
-6.  hexo d 推送部署
-
-#### 升级步骤
+## hexo升级步骤
 
 ```
 npm i hexo-cli -g
@@ -33,29 +110,11 @@ npm-upgrade
 npm update
 ```
 
-​	升级hexo, 可能不好使 那就升级主题再试试
-
-​	升级主题: 重新修改配置和语言 用上个版本文件夹里的2个配置文件(和原生未修改的)对比,重新一个一个修改,而不是对比新旧2个配置文件              
-
-
+​	升级之后如果有问题可能是配置问题 建议检查主配置文件和主题配置文件
 
 ------
 
 
 
-#### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 其他
