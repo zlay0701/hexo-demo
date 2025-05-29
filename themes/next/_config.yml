@@ -171,10 +171,8 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
-  GitHub: https://github.com/XXX || fab fa-github
-  E-Mail: mailto:XXX@gmail.com || fa fa-envelope
+  GitHub: https://github.com/zlay0701 || fab fa-github
   RSS: /atom.xml || fa fa-rss
-  Gitee: https://gitee.com/XXX || fa fa-envelope
 
 social_icons:
   enable: true
@@ -294,7 +292,7 @@ follow_me:
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.png || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
-  博客园: https://www.cnblogs.com/XXX/ || fa fa-envelope
+  GIthub: https://github.com/zlay0701 || fa fa-envelope
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
@@ -420,7 +418,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: true
-  permalink: https://github.com/XXX 
+  permalink: https://github.com/zlay0701
 
 
 # ---------------------------------------------------------------
