@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-root: /
+url: https://zlay0701.github.io/hexo-demo/
+root: /hexo-demo/
 permalink: /p/:year-:month-:day-:title.html
 permalink_defaults:
 pretty_urls:
@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
  - type: git
-   repo: git@github.com:XXX/XXX.github.io.git
+   repo: git@github.com:zlay0701/hexo-demo.git
    branch: main
 #本地搜索服务 https://github.com/next-theme/hexo-generator-searchdb
 #https://theme-next.js.org/docs/third-party-services/search-services.html?highlight=local+searc#Local-Search
