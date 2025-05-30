@@ -112,3 +112,51 @@ search:
   field: post
   content: true
   format: html
+#代码压缩 https://github.com/curbengh/hexo-yam
+minify:
+  enable: false #暂时关闭 有需求再开
+  previewServer: true #true时 hexo s执行时不压缩代码 false则全压缩
+  html:
+    enable: true
+    exclude:
+  css:
+    enable: true
+    exclude:
+      - "*.min.css"
+  js:
+    enable: true
+    exclude:
+      - "*.min.js"
+  svg:
+    enable: true
+    include:
+      - "*.svg"
+      - "!*.min.svg"
+  gzip:
+    enable: true
+    include:
+      - "*.html"
+      - "*.css"
+      - "*.js"
+      - "*.txt"
+      - "*.ttf"
+      - "*.atom"
+      - "*.stl"
+      - "*.xml"
+      - "*.svg"
+      - "*.eot"
+      - "*.json"
+  brotli:
+    enable: true
+    include:
+      - "*.html"
+      - "*.css"
+      - "*.js"
+      - "*.txt"
+      - "*.ttf"
+      - "*.atom"
+      - "*.stl"
+      - "*.xml"
+      - "*.svg"
+      - "*.eot"
+      - "*.json"
