@@ -13,9 +13,9 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://XXX.github.io/
+url: https://123.github.io/
 root: /
-permalink: /p/:year-:month-:day-:title.html
+permalink: /p/:year-:month-:day-:title
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
