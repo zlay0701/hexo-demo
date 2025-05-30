@@ -111,6 +111,10 @@ hexo s  测试没问题之后
 hexo d部署即可
 ```
 
+## 部署到Cloudflare Pages
+
+https://zhuanlan.zhihu.com/p/1896206344874334028
+
 ## github action 自动部署(私有仓库防止秘钥泄露!)
 
 ```
