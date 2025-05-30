@@ -114,7 +114,7 @@ search:
   format: html
 #代码压缩 https://github.com/curbengh/hexo-yam
 minify:
-  enable: false #暂时关闭 有需求再开
+  enable: true
   previewServer: true #true时 hexo s执行时不压缩代码 false则全压缩
   html:
     enable: true
@@ -160,7 +160,7 @@ minify:
       - "*.svg"
       - "*.eot"
       - "*.json"
-# https://github.com/viko16/hexo-permalink-pinyin
+#拼音插件 https://github.com/viko16/hexo-permalink-pinyin
 permalink_pinyin:
   enable: true
   separator: '-'
