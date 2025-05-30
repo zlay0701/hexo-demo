@@ -35,9 +35,9 @@ categories:   分类有层级关系,多层级关系,如图2
 
 
 
-<img src="2025-05-28-test-categories/image-20250528113120698.png" alt="image-20250528113120698" style="zoom:67%;" />
+![image-20250528113120698](2025-05-28-test-categories/image-20250528113120698.png)
 
-<img src="2025-05-28-test-categories/image-20250528113630090.png" alt="image-20250528113630090" style="zoom:67%;" />
+![image-20250528113630090](2025-05-28-test-categories/image-20250528113630090.png)
 
 ## 如何增加摘要
 
