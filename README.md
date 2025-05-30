@@ -15,24 +15,24 @@ hexo7.3.0 主题next 8.23.0
 
 ## 存在问题
 
-### 新建文章时不要用中文文件名
+### 新建文章时尽量不要用中文文件名
 
 ```
 hexo new title  #正确
-hexo new 新文章 #可能有bug
+hexo new 新文章 # 尽量不要用中文
 可以在文件内容里改为中文标题 不影响 只是文件名不要用中文
 -------
-问题1
-测试结果为hexo-asset-pro插件的bug
+问题1 好像没问题了 好使了!!! 测试没问题!
+测试hexo-asset-pro插件
 root: / 这种配置中文没问题
-root: /blog/ 部署在子目录下时 中文有问题 /blog/这一段没拼接在图片路径上 或者图片路径别用/开头用相对路径
+root: /blog/ 部署在子目录下时 中文可能有问题 /blog/这一段没拼接在图片路径上 或者图片路径别用/开头用相对路径
 -------
-问题2
-hexo-permalink-pinyin插件问题 
-这个插件配合hexo-asset-pro时图片不显示 图片路径没有翻译过来  暂时没增加hexo-permalink-pinyin插件到项目中
+问题2 好像也没问题了!!!! 测试没问题!
+hexo-permalink-pinyin插件
+这个插件配合hexo-asset-pro时图片不显示 图片路径没有翻译过来  
 测试结果图片正确的复制到pinyin文件夹中 但是文章中的图片路径还是中文的 结果不显示 
-
-总结 应该修改hexo-asset-pro插件bug
+总结 应该修改hexo-asset-pro插件
+-------
 
 ```
 
