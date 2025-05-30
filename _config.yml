@@ -160,3 +160,7 @@ minify:
       - "*.svg"
       - "*.eot"
       - "*.json"
+# https://github.com/viko16/hexo-permalink-pinyin
+permalink_pinyin:
+  enable: true
+  separator: '-'
