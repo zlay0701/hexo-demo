@@ -7,7 +7,7 @@ tags: Hexo
 摘要: 分类有层级关系,多层级关系; 标签没层级关系
 <!--more-->
 
-# 分类及标签说明
+## 分类及标签说明
 
 ```
 categories:
@@ -35,15 +35,16 @@ categories:   分类有层级关系,多层级关系,如图2
 
 
 
-![image-20250528113120698](2025-05-28-test-categories/image-20250528113120698.png)
+<img src="2025-05-28-test-categories/image-20250528113120698.png" alt="image-20250528113120698" style="zoom:67%;" />
 
-![image-20250528113630090](2025-05-28-test-categories/image-20250528113630090.png)
+<img src="2025-05-28-test-categories/image-20250528113630090.png" alt="image-20250528113630090" style="zoom:67%;" />
 
-# 增加摘要
+## 如何增加摘要
 
 ```
 前面必须要有内容,要不不好使
 <!--more-->
+正文...
 ```
 
 
