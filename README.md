@@ -3,9 +3,9 @@
 ## 介绍
 一个hexo demo 下载之后改改配置达到可以快速搭建一个博客的目的
 
-源码地址https://github.com/zlay0701/hexo-demo-source  请fork这个使用
+源码地址https://github.com/zlay0701/hexo-demo  请fork这个使用
 
-演示地址https://zlay0701.github.io/hexo-demo/
+演示地址https://hexo-demo.pages.dev/
 
 其他教程见https://zlay0701.github.io/
 
