@@ -101,6 +101,7 @@ menu:
   tags: /tags || fa fa-tags
   archives: /archives || fa fa-archive
   about: /about || fa fa-user
+  友链: /friends || fa fa-link
   #home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags
@@ -292,7 +293,7 @@ follow_me:
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.png || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
-  GIthub: https://github.com/zlay0701 || fa fa-envelope
+  GIthub: https://github.com/zlay0701 || fab fa-github
 
 # Related popular posts
 # Dependencies: https://github.com/sergeyzwezdin/hexo-related-posts
