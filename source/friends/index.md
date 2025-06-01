@@ -7,6 +7,9 @@ comments: true
 <div class="post-body">
    <div id="links">
       <style>
+	 .post-body{
+		margin:5% 5% 5% 5%;
+	  }
 	    .link-navigation {
 	  display: grid;
 	  grid-template-columns: repeat(4, minmax(370px, 1fr));
@@ -34,6 +37,14 @@ comments: true
          margin-bottom: 1rem;
          display:flex;
          }
+		 @media (max-width: 768px) {
+			.post-body{
+				margin:5% 0% 5% 0%;
+			}
+			.card {
+				padding: 10px 0px;
+			}
+		}
          .card:nth-child(odd) {
          float: left;
          }
