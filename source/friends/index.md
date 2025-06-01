@@ -7,6 +7,16 @@ comments: true
 <div class="post-body">
    <div id="links">
       <style>
+	    .link-navigation {
+	  display: grid;
+	  grid-template-columns: repeat(4, minmax(370px, 1fr));
+	}
+	@media (max-width: 768px) {
+		.link-navigation {
+		  display: grid;
+		  grid-template-columns: repeat(1, minmax(330px, 1fr));
+		}
+	}
          .links-content{
          margin-top:1rem;
          }
@@ -16,7 +26,7 @@ comments: true
          clear: both;
          }
          .card {
-         width: 45%;
+         width: auto;
          font-size: 1rem;
          padding: 10px 20px;
          border-radius: 4px;
@@ -72,7 +82,7 @@ comments: true
       <div class="links-content">
          <div class="link-navigation">
             <div class="card">
-               <img class="ava" src="/uploads/favicon-96x96.png" />
+               <img class="ava" src="/uploads/favicon-96x96_2.png" />
                <div class="card-header">
                   <div>
                      <a href="https://zhile.io/">知了(zhile.io)</a>
