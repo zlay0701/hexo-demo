@@ -71,6 +71,9 @@ comments: true
          overflow: hidden;
          width: 100%;
          }
+		 .ava {
+		 padding-top: 6px;
+		 }
          .card .card-header a {
          font-style: normal;
          color: #2bbc8a;
