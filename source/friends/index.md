@@ -14,7 +14,7 @@ comments: true
 	  display: grid;
 	  grid-template-columns: repeat(2, minmax(370px, 1fr));
 	}
-	@media (max-width: 768px) {
+	@media (max-width: 767px) {
 		.link-navigation {
 		  display: grid;
 		  grid-template-columns: repeat(1, minmax(330px, 1fr));
@@ -37,12 +37,12 @@ comments: true
          margin-bottom: 1rem;
          display:flex;
          }
-		 @media (max-width: 768px) {
+		 @media (max-width: 767px) {
 			.post-body{
-				margin:5% 0% 5% 0%;
+				margin:5% 0% 5% -1%;
 			}
 			.card {
-				padding: 10px 0px;
+				padding: 10px 10px;
 			}
 		}
          .card:nth-child(odd) {
@@ -52,7 +52,7 @@ comments: true
          float: right;
          }
          .card:hover {
-		 background-color:#D4D4D4;
+		 background-color:#F5F5F5;
          transform: scale(1.1);
          box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
          }
