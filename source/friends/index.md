@@ -8,7 +8,7 @@ comments: true
    <div id="links">
       <style>
 	 .post-body{
-		margin:5% 5% 5% 5%;
+		margin:2% 2% 2% 2%;
 	  }
 	    .link-navigation {
 	  display: grid;
@@ -35,14 +35,19 @@ comments: true
          border-radius: 4px;
          transition-duration: 0.15s;
          margin-bottom: 1rem;
+		 margin-left: 1rem;
+		 margin-right: 1rem;
          display:flex;
+		 box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
          }
 		 @media (max-width: 767px) {
 			.post-body{
-				margin:5% 0% 5% -1%;
+				margin:2% 0% 2% -1%;
 			}
 			.card {
 				padding: 10px 10px;
+				margin-left: 0rem;
+				margin-right: 0rem;
 			}
 		}
          .card:nth-child(odd) {
