@@ -124,23 +124,23 @@ comments: true
 			<!--card end-->
 			<!--card start-->
 			<div class="card">
-               <img class="ava" src="https://avatars.githubusercontent.com/u/5326814?s=48&v=4" />
+               <img class="ava" src="/uploads/favicon-96x96_2.png" />
                <div class="card-header">
                   <div>
-                     <a href="https://ezlippi.github.io/">Lippi-浮生志</a>
+                     <a href="https://www.julydate.com/">七夏浅笑</a>
                   </div>
-                  <div class="info">Web后台开发、Android应用开发爱好者</div>
+                  <div class="info">七月之约，夏末浅笑 _</div>
                </div>
             </div>
 			<!--card end-->
 			<!--card start-->
 			<div class="card">
-               <img class="ava" src="https://avatars.githubusercontent.com/u/5326814?s=48&v=4" />
+               <img class="ava" src="https://moeci.com/images/favicon-32x32-next.png" />
                <div class="card-header">
                   <div>
-                     <a href="https://ezlippi.github.io/">Lippi-浮生志</a>
+                     <a href="https://moeci.com/">yiyun's Blog</a>
                   </div>
-                  <div class="info">Web后台开发、Android应用开发爱好者</div>
+                  <div class="info">愚蠢的是我</div>
                </div>
             </div>
 			<!--card end-->
