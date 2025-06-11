@@ -764,8 +764,9 @@ isso: # <data_isso>
 
 # AddToAny Share. See: https://www.addtoany.com
 addtoany:
-  enable: false
+  enable: true
   buttons:
+    - wechat
     - facebook
     - twitter
 
