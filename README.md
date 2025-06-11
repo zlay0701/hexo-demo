@@ -66,9 +66,15 @@ hexo-permalink-pinyin插件
    
    修改source/CNAME的内容为你自己的域名!!!!
    
+   主配置文件_config.yml
+   
+   主题配置文件在_config.next.yml
+   不要修改theme/next/_config.yml这个文件 升级会自动覆盖
+   主题配置文件优先级根目录下>主题文件夹下 
+   参见https://hexo.io/zh-cn/docs/configuration.html#使用代替主题配置文件
    ```
 
-## 必须修改主配置:
+## 必须修改主配置(_config.yml)
 
 ```yaml
 title: 主标题XXX’Blog
@@ -86,7 +92,7 @@ deploy:
    branch: main
 ```
 
-## 必须修改Next主题配置
+## 必须修改Next主题配置(_config.next.yml)
 
 ```yaml
 #网站首页的头像
