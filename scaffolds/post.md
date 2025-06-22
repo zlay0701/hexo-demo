@@ -1,10 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
-updated: 
-comments: true
-categories: []
-tags: []
+categories: [未分类]
+tags: [未分类]
 ---
 > 摘要: 
 
