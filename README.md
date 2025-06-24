@@ -9,6 +9,8 @@
 
 其他教程见https://zlay0701.github.io/
 
+**nodejs版本>=v18.20.8**
+
 
 ## 软件架构
 hexo7.3.0 主题next 8.23.1
