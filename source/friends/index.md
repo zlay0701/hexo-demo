@@ -1,12 +1,9 @@
 ---
 title: 友情链接
-date: 2025-5-31 08:46:33
+date: 2025-05-31 08:46:33
 comments: true
 ---
-
-<div class="post-body">
-   <div id="links">
-      <style>
+<style>
 	 .post-body{
 		margin:2% 2% 2% 2%;
 	  }
@@ -98,6 +95,8 @@ comments: true
          white-space: nowrap;
          }
       </style>
+<div class="post-body">
+   <div id="links">
       <div class="links-content">
          <div class="link-navigation">
 			<!--card start-->
