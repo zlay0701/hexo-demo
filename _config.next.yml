@@ -97,12 +97,14 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
+  导航: /navigation/ || fas fa-rocket
   home: / || fa fa-home
   categories: /categories || fa fa-th
   tags: /tags || fa fa-tags
   archives: /archives || fa fa-archive
   about: /about || fa fa-user
   友链: /friends || fa fa-link
+  作品集: /portfolio/ || fa fa-file-code
   #home: / || fa fa-home
   #about: /about/ || fa fa-user
   #tags: /tags/ || fa fa-tags

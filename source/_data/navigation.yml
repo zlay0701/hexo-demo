@@ -8,7 +8,7 @@
     - name: 博客首页
       desc: 你必须很努力,才能看起来毫不费力
       avatar: /uploads/favicon-96x96.png
-      link: /home
+      link: /
       visible: true
 
     - name: Hexo Next Demo
