@@ -13,7 +13,7 @@
     "version": "7.3.0"
   },
   "dependencies": {
-    "stylus": "github:stylus/stylus#0.62.0",
+    "stylus": "github:stylus/stylus#0.64.0",
     "hexo": "^7.3.0",
     "hexo-asset-pro": "^1.0.0",
     "hexo-deployer-git": "^4.0.0",
